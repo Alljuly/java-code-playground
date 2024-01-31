@@ -1,21 +1,42 @@
 public abstract class Conta implements IConta{
-    private int agencia;
-    private int num;
-    private double saldo;
+    
+    protected static int AGENCIA_PADRAO = 1026;
+    protected static int SEQUENCIAL = 1;
+    protected int agencia;
+    protected int num;
+    protected double saldo;
 
 
+    protected Conta(){
+        this.agencia = AGENCIA_PADRAO;
+        this.num = SEQUENCIAL++;
+    }
+
+
+    @Override
+    public String dadosComuns(){
+        return "Agencia " +this.agencia+ " Conta " +num+ "\nSaldo Atual: " +saldo;
+    }
+
+    @Override 
+    public void imprimirExtrato(){
+
+    }
 
     @Override
     public void sacar(double valor){
-       
+       this.saldo -= valor;
     }
+
     @Override
     public void depositar(double valor){
-       
+       this.saldo += valor;
     }
+
     @Override
-    public void transferir(double valor, int agenciaDestino, int numeroDestino){
-       
+    public void transferir(double valor, Conta contaDestino){
+        this.sacar(valor);
+        contaDestino.depositar(valor);
     }
 
 

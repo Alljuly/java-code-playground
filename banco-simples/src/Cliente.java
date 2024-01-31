@@ -1,12 +1,12 @@
 public class Cliente {
-    private String nome;
+    private String nome = "Meu nome";
 
-    publi String getName(){
-        return name;
+    public String getName(){
+        return nome;
     }
 
-    publi String setName(String name){
-       this.name = name;
+    public void setName(String nome){
+       this.nome = nome;
     }
 
 

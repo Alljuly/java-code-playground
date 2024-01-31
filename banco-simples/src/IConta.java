@@ -2,5 +2,7 @@ public interface IConta{
     
     void sacar(double valor);
     void depositar(double valor);
-    void transferir(double valor, int agenciaDestino, int numeroDestino);
+    void transferir(double valor, Conta contaDestino);
+    String dadosComuns();
+    void imprimirExtrato();
 }
