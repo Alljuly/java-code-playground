@@ -3,3 +3,6 @@
 
 - Desafio Banco
   - Este projeto consiste em uma implementação básica de um sistema bancário em Java, focado na prática de paradigmas de programação orientada a objetos.
+
+- Desafio POO DIO
+  - Este projeto consiste em uma implementação baseada no sistema de curso da DIO, para prática de conceitos como abstração, polimorfismo, herança e encapsulamento.
