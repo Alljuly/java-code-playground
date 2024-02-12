@@ -6,3 +6,6 @@
 
 - Desafio POO DIO
   - Este projeto consiste em uma implementação baseada no sistema de curso da DIO, para prática de conceitos como abstração, polimorfismo, herança e encapsulamento.
+
+- Projeto de Karaoke
+  - Esse projeto foi feito para uma avaliação de POO durante o curso técnico de informática.
