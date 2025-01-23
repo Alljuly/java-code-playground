@@ -2,8 +2,8 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class Teste{
     public string void main (String[] args){
-        public Scanner e = new Scanner(System.in);
-        public ArrayList<Objeto> objetos = new ArrayList<>()
+        Scanner e = new Scanner(System.in);
+        ArrayList<Objeto> objetos = new ArrayList<>()
 
 
         do {
